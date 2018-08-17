@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pixels YYC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type="text/css">
+    header {
+      font-weight: bold;
+    }
+    @supports (display: grid) {
+      @import url('https://fonts.googleapis.com/css?family=Catamaran');
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+        display: flex;
+      }
+      main {
+        margin: auto;
+      }
+      #logo-label {
+        font-family: 'Catamaran', serif;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img id="logo" src="svg/pixels-logo.svg" alt="Pixels Logo">
+    <h1 id="logo-label">Pixels<sup>YYC</sup></h1>
+  </main>
+</body>
+</html>
